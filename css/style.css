@@ -65,6 +65,7 @@ section.cover-form {
     width: 400px;
     height: 110%;
     position: relative;
+    z-index: 2;
     top: -5%;
     box-shadow: 1px 1px 2px 1px rgb(180, 180, 180);
     background-color: white;
@@ -113,6 +114,29 @@ section.cover-form {
     height: 50px;
     cursor: pointer;
     border: 0;
+}
+
+section.chamada{
+    width: 100%;
+    position: relative;
+    top: -50px;
+    z-index: 1;
+    text-align: center;
+    display: inline-block;  
+}
+
+section.chamada .container {
+    padding: 50px 0;
+    background-color: #7c6757;
+}
+
+section.chamada h2{
+    width: 96%;
+    max-width: 700px;
+    display: inline-block;
+    color: white;
+    font-size: 24px;
+    font-weight: normal;
 }
 
 
